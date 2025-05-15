@@ -13,3 +13,20 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Firebase crashlytics and performance
+firebase/*.properties
+.idea/
+captures/
+.externalNativeBuild/
+
+# Google Services (auto-generated)
+google-services.json
+
+# Signing keys (DO NOT commit)
+*.jks
+key.properties
+
+# OS-specific
+.DS_Store
+*.swp
